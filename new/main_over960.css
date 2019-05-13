@@ -1,0 +1,189 @@
+@media screen and (min-width:961px){
+	#input{
+		top:0px;
+		left:0px;
+		width:100%;
+		height:130px;
+		padding:5px;
+		background-color: #ffe8d1;
+		font-size:10.5pt;
+		box-sizing:border-box;
+	}
+
+	#fook{
+		display:none;
+	}
+
+	#input_content{
+		width:100%;
+		margin:0;
+		height:120px;
+	}
+
+	.box{
+		display:inline-block;
+		vertical-align: top;
+		height:100%;
+	}
+
+	textarea{
+		height:100px;
+		width:140px;
+		margin:0;
+		display:block;
+	}
+
+
+	.button{
+		width:60px;
+		position:relative;
+	}
+
+	.button_inner{
+		position: absolute;
+		bottom:0px;
+		vertical-align: bottom;
+		width:60px;
+	}
+
+	.textarea{
+		width:150px;
+		position:relative;
+	}
+
+	.textarea_inner{
+		position: absolute;
+		bottom:0px;
+		vertical-align: bottom;
+		width:150px;
+	}
+
+	.submit_button{
+		margin:4px 0px 0px;
+		text-align:center;
+		width:60px;
+		border-radius:7px;
+		text-align:center;
+		user-select: none;
+		height:50px;
+		line-height:50px;
+		background-color:white;
+		border:3px solid lightseagreen;
+		box-sizing:border-box;
+		cursor:pointer;
+	}
+
+	.submit_button:hover{
+		background-color: lightseagreen;
+		color:white;
+	}
+
+	input[type="number"]{
+		width:50px;
+	}
+	.radiogroop{
+		margin: 4px 0px 0px;
+	}
+
+	.radio{
+		width:60px;
+		margin:0px 0px;
+		text-align:center;
+		background-color:peachpuff;
+		height:26px;
+		min-height:26px;
+		line-height:26px;
+		box-sizing:border-box;
+	}
+	.radiogroop label:nth-of-type(odd) .radio{
+		border-radius:5px 5px 0px 0px;
+		border-width:2px 2px 0px 2px;
+		border-color:pink;
+		border-style:solid;
+	}
+
+	.radiogroop label:nth-of-type(even) .radio{
+		border-radius:0px 0px 5px 5px;
+		border-width:0px 2px 2px 2px;
+		border-color:pink;
+		border-style:solid;
+	}
+	.chkbox, .blank{
+		margin:4px 0px 0px;
+		text-align:center;
+		width:60px;
+		border-radius:7px;
+		text-align:center;
+		user-select: none;
+		height:24px;
+		min-height:24px;
+		line-height:24px;
+	}
+
+	.chkbox input[type="checkbox"]{
+		display:none;
+	}
+
+	.radio input[type="radio"]{
+		display:none;
+	}
+
+	.category{
+		-webkit-writing-mode: vertical-rl;
+		-ms-writing-mode: tb-rl;
+		writing-mode: vertical-rl;
+		width:25px;
+		line-height:19px;
+		text-align:center;
+		margin-left:5px;
+		box-sizing:border-box;
+		border-right:3px solid orange;
+	}
+
+	.selected{
+		background-color:pink;
+	}
+
+	.chkbox, .radio{
+		cursor:pointer;
+	}
+	#pageinfo {
+		display:none;
+		position:fixed;
+		width:800px;
+		height:80vh;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		font-size:14px;
+		border:orange solid 5px;
+		background-color:white;
+		z-index:100;
+		overflow:scroll;
+		padding:5px;
+		border-radius:10px;
+	}
+	
+	#pageinfo dt, dd {
+		margin-left:2em;
+	}
+	
+	#pageinfo dt:first-letter, #pageinfo dd:first-letter {
+		font-size:18px;
+		margin-left:-18px;
+	}
+	
+	#pageinfo dd {
+		margin-bottom:0.8em;
+	}
+	
+	#pageinfo blockquote {
+		margin:0.8em;
+		border-left:orange solid 5px;
+		padding-left:3px;
+	}
+
+	#output{
+		padding:5px;
+	}
+}

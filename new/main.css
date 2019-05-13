@@ -1,0 +1,317 @@
+@import url("main_over960.css");
+@import url("main_under960.css");
+
+body{
+	font-family:Helvetica,Verdana,"ヒラギノ角ゴ ProN W3","Hiragino Kaku Gothic ProN","メイリオ","Meiryo",sans-serif;
+	color:#0f2350;
+	width:100%;
+	margin:0;
+}
+
+#pagetop{
+	position:fixed;
+	bottom:20px;
+	right:20px;
+	width:100px;
+	height:40px;
+	line-height:40px;
+	border-radius:8px;
+	background-color:pink;
+	text-align:center;
+	font-size:12px;
+	color:#0f2350;
+	cursor:pointer;
+}
+#layer {
+    position: fixed;
+    z-index: 10;
+    background: #000000;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    filter: alpha(opacity=0);
+    opacity: 0.0;
+    display: none;
+}
+
+#tagedit {
+	width:300px;
+	height:200px;
+	position:absolute;
+	border:5px solid orange;
+	border-radius:10px;
+	top:0px;
+	left:0px;
+	z-index:1;
+	background-color:#ffe8d1;
+	display:none;
+	font-size:12px;
+	padding:5px;
+	box-sizing:border-box;
+	cursor:move;
+}
+
+#tagedit span {
+	font-weight:bold;
+}
+
+#tagedit #tageditclose {
+	position:absolute;
+	right:10px;
+	top:10px;
+}
+
+a.linkbutton {
+	background-color:pink;
+	color:black;
+	border-radius:3px;
+	text-decoration:none;
+	font-size:14px;
+	padding:2px 5px;
+	margin:0px 2px;
+	text-align:center;
+}
+
+#info{
+	display:table;
+	width:100%;
+}
+
+#txtarea {
+	white-space:pre;
+	font-family:"Osaka-mono","Roboto","MotoyaLCedar","MS Gothic","ＭＳ ゴシック",monospace;
+	font-size:12px;
+	line-height:15px;
+	background-color:#ffe8d1;
+	padding:3px;
+	margin-top:5px;
+	margin-bottom:5px;
+	color:#333;
+	width:280px;
+	display:table-cell;
+	vertical-align:top;
+}
+
+textarea{
+	resize:none;
+}
+
+#winper{
+	display:none;
+}
+
+.damy{
+	display:block;
+	height:2px;
+}
+
+.none{
+	text-align:center;
+	background-color:#CCCCCC;
+}
+
+#resulttable {
+	font-size:12px;
+	border-collapse:collapse;
+	color:#333;
+}
+
+
+#resulttable tr.menu{
+	cursor:auto;
+	background-color:white;
+}
+
+#resulttable td {
+	border-top:2px solid #ccc;
+	border-bottom:2px solid #ccc;
+	padding:2px 5px;
+	text-align:center;
+	white-space:nowrap;
+}
+
+#resulttable td span{
+	padding:2px;
+	margin:auto 0;
+}
+
+#resulttable tr:not(.menu) .td_2{
+	text-align:left;
+}
+
+.ura, .fre{
+	color:#228b22;
+}
+
+.bgd, .nec{
+	color:#0000cd;
+}
+
+.cat {
+	color:#9400d3;
+}
+
+.wlf{
+	color:white;
+	background-color:#ff7f7f;
+}
+
+.mad{
+	color:white;
+	background-color:#ff7fbf;
+}
+
+.fox{
+	background-color:#ffff89;
+}
+.imo{
+	background-color:#ffc489;
+}
+.hide{
+	display:none;
+}
+#navi{
+}
+
+#custom {
+	display:none;
+	font-size:12px;
+	line-height:18px;
+	margin:2px 0px;
+}
+
+
+.link_tag {
+	background:none;
+	color:#000080;
+	text-decoration:underline;
+	font-size:12px;
+}
+
+.result_win{
+	background-color:#ffdbdb;
+}
+.result_win:hover{
+	background-color:#ffc1c1;
+}
+.result_lose{
+	background-color:#dbedff;
+}
+.result_lose:hover{
+	background-color:#c1e0ff;
+}
+.result_draw{
+	background-color:#dbffdb;
+}
+.result_draw:hover{
+	background-color:#c1ffc1;
+}
+.win {
+	background-color:#ff9999;
+}
+.lose{
+	background-color:#99ccff;
+}
+.draw {
+	background-color:#99ff99;
+}
+
+.td_18{
+	max-width: 200px;
+}
+.td_18 a {
+	display:inline-block;
+	padding-right:5px;
+}
+
+#cnlist {
+	font-size:12px;
+	width:100%;
+	max-width:800px;
+	margin-top:10px;
+	border-collapse:collapse;
+}
+
+#cnlist tr:nth-of-type(odd){
+	background-color:#ffdbdb;
+}
+#cnlist tr:nth-of-type(even){
+	background-color:#ffc1c1;
+}
+
+#cnlist tr td:nth-of-type(2){
+	min-width:60px;
+}
+
+#cnlist td{
+	border-top:2px solid #ccc;
+	border-bottom:2px solid #ccc;
+}
+
+#resulttable.invi_1 .td_1 {display:none;}
+#resulttable.invi_2 .td_2 {display:none;}
+#resulttable.invi_3 .td_3 {display:none;}
+#resulttable.invi_4 .td_4 {display:none;}
+#resulttable.invi_5 .td_5 {display:none;}
+#resulttable.invi_6 .td_6 {display:none;}
+#resulttable.invi_7 .td_7 {display:none;}
+#resulttable.invi_8 .td_8 {display:none;}
+#resulttable.invi_9 .td_9 {display:none;}
+#resulttable.invi_10 .td_10 {display:none;}
+#resulttable.invi_11 .td_11 {display:none;}
+#resulttable.invi_12 .td_12 {display:none;}
+#resulttable.invi_13 .td_13 {display:none;}
+#resulttable.invi_14 .td_14 {display:none;}
+#resulttable.invi_15 .td_15 {display:none;}
+#resulttable.invi_16 .td_16 {display:none;}
+#resulttable.invi_17 .td_17 {display:none;}
+#resulttable.invi_18 .td_18 {display:none;}
+
+#resulttable.invi_vil .job_vil {display:none;}
+#resulttable.invi_ura .job_ura {display:none;}
+#resulttable.invi_nec .job_nec {display:none;}
+#resulttable.invi_bgd .job_bgd {display:none;}
+#resulttable.invi_fre .job_fre {display:none;}
+#resulttable.invi_cat .job_cat {display:none;}
+#resulttable.invi_wlf .job_wlf {display:none;}
+#resulttable.invi_mad .job_mad {display:none;}
+#resulttable.invi_fox .job_fox {display:none;}
+#resulttable.invi_imo .job_imo {display:none;}
+
+#resulttable.invi_win .result_win {display:none;}
+#resulttable.invi_draw .result_draw {display:none;}
+#resulttable.invi_lose .result_lose {display:none;}
+
+#resulttable.invi_num_8 .num_8 {display:none;}
+#resulttable.invi_num_9 .num_9 {display:none;}
+#resulttable.invi_num_10 .num_10 {display:none;}
+#resulttable.invi_num_11 .num_11 {display:none;}
+#resulttable.invi_num_12 .num_12 {display:none;}
+#resulttable.invi_num_13 .num_13 {display:none;}
+#resulttable.invi_num_14 .num_14 {display:none;}
+#resulttable.invi_num_15 .num_15 {display:none;}
+#resulttable.invi_num_16 .num_16 {display:none;}
+#resulttable.invi_num_17 .num_17 {display:none;}
+#resulttable.invi_num_18 .num_18 {display:none;}
+#resulttable.invi_num_19 .num_19 {display:none;}
+#resulttable.invi_num_20 .num_20 {display:none;}
+#resulttable.invi_num_21 .num_21 {display:none;}
+#resulttable.invi_num_22 .num_22 {display:none;}
+#resulttable.invi_num_23 .num_23 {display:none;}
+#resulttable.invi_num_24 .num_24 {display:none;}
+#resulttable.invi_num_25 .num_25 {display:none;}
+#resulttable.invi_num_26 .num_26 {display:none;}
+#resulttable.invi_num_27 .num_27 {display:none;}
+#resulttable.invi_num_28 .num_28 {display:none;}
+#resulttable.invi_num_29 .num_29 {display:none;}
+#resulttable.invi_num_30 .num_30 {display:none;}
+
+#resulttable.invi_normal .type_normal {display:none;}
+#resulttable.invi_addjob .type_addjob {display:none;}
+#resulttable.invi_addfox .type_addfox {display:none;}
+#resulttable.invi_addura .type_addura {display:none;}
+#resulttable.invi_deathnote .type_deathnote {display:none;}
+#resulttable.invi_devil .type_devil {display:none;}
+#resulttable.invi_devildeath .type_devildeath {display:none;}
+#resulttable.invi_other .type_other {display:none;}
