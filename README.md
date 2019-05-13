@@ -1,0 +1,1 @@
+http://mobajinro.s178.xrea.com/mobajinrolog/result.php
